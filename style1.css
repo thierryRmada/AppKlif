@@ -1,0 +1,63 @@
+ 
+      #logo{
+        width:100px;
+        height:100px;
+        background-image:url("img/logo2.png");
+      }  
+      #quit{
+        padding-top:2%;
+      }
+      #afficher{
+        display:none;
+      }
+      #dernier{
+        padding-bottom:2%;
+      }
+      #insert{
+        width:auto;
+        margin-left:5%;
+        margin-right:5%;
+         border: 2px solid #000;
+        margin-top:50px;
+        background-color:rgba(0,0,0,0.5);
+      }
+      #start{
+        margin-top:10%;
+        margin-bottom:5%;
+      }
+      #calendrier{
+display:none;
+              margin-top:5px;
+      }
+      #Rjour,#Rannee{
+        width:50px;
+      }
+      #calculer{
+        margin-top:5%;
+        margin-bottom:5%;
+        
+      }
+      #tryAgain{
+        margin-top:2%;
+      }
+#recalculer{
+  display:none;
+}
+	body{
+	 background-image:url("img/bg.png");
+  }
+#music{
+  margin-top:5px; 
+  width:50px;
+  height:50px;
+}
+#stop{
+  display:none;
+}
+#addDate, #DateOv, #DateAv, #DateAr, #DureeRegle{
+  color:#fff;
+}
+#DateOv{
+  margin-top:2px;
+  margin-bottom:2px;
+}

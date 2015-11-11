@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1">
+
+    <title>Periodique App</title>
+<link rel="stylesheet" href="style1.css">
+        <script type="text/javascript" src="calendrier.js"></script>
+<link rel="stylesheet" href="css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+<link rel="stylesheet" href="css/bootstrap-theme.min.css" integrity="sha384-aUGj/X2zp5rLCbBxumKTCw2Z50WgIr1vs/PFN4praOTvYXWlVyh2UtNUU0KAUhAX" crossorigin="anonymous">
+    <!-- Inline scripts are forbidden in Firefox OS apps (CSP restrictions),
+         so we use a script file. -->
+    <script src="jquery.js"></script>
+     
+  
+  </head>
+
+  <body>
+    <center>
+    <div id="logo">
+    </div>  
+    <!-- This code is in the public domain. Enjoy! -->
+      <h2>L'Application periodique</h2>
+      <div id="insert">
+        <form>
+          <h5>Veuillez inserer le durée de votre Cycle</h5>
+          <input type="number" placeholder="Durée de cycle" id="cycle" required/>
+          <h5>Combien de jours dûre votre regle</h5>
+          <select id="Dregle">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+</select>
+                    <h5>Veuillez inserer la date de votre dernière règle</h5>
+          <select id="Rjour">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+            <option>9</option>
+            <option>10</option>
+            <option>11</option>
+            <option>12</option>
+            <option>13</option>
+            <option>14</option>
+            <option>15</option>
+            <option>16</option>
+            <option>17</option>
+            <option>18</option>
+            <option>19</option>
+            <option>20</option>
+            <option>21</option>
+            <option>22</option>
+            <option>23</option>
+            <option>24</option>
+            <option>25</option>
+            <option>26</option>
+            <option>27</option>
+            <option>28</option>
+            <option>29</option>
+            <option>30</option>
+            <option>31</option>
+</select>
+ <select id="RMmois">
+    <option value="0">janvier</option>
+    <option value="1">fevrier</option>
+    <option value="2">mars</option>
+    <option value="3">avril</option>
+    <option value="4">mai</option>
+       <option value="5">juin</option>
+    <option value="6">juillet</option>
+    <option value="7">aout</option>
+    <option value="8">septembre</option>
+    <option value="9">octobre</option>
+       <option value="10">novembre</option>
+    <option value="11">decembre</option>
+</select>
+          <select id="Ryear">
+            <option>2014</option>
+            <option>2015</option>
+            <option>2016</option>
+            <option>2017</option>
+            <option>2018</option>
+            <option>2019</option>
+            <option>2020</option>
+          </select><br/>
+         <input  type="button" class="btn btn-success" value="Calculer" id="calculer"/>
+        </form>
+          </div>
+                   <input type="button" id="afficher" class="btn btn-success" value="Me Montrer"/>
+                    <div id="calendrier">
+                         <script src="javascript_first.js"></script>
+                      <p id="addDate"></p>
+                      <p id="DureeRegle"></p>
+                       <p id="DateOv"></p>
+      <div id="datePasDeSexe">
+        <p id="DateAv"></p> <p id="DateAr"></p>
+                      </div>
+                    </div>
+      <div id="tryAgain">
+        <INPUT  class="btn btn-warning" id="recalculer" TYPE="button" value="Recalculer">
+      </div>
+          <div id="quit">
+            <INPUT  class="btn btn-danger" TYPE="button" value="Quitter" id="exit">
+              </div>
+                  <div id="music">
+        <audio preload="auto" src="music.mp3" id="player_audio"></audio>
+        <a id="play"><img src="img/play.png"/></a> <a id="stop"><img src="img/stop.png"/></a>
+      </div>
+<audio preload="auto" src="679.wav" id="player_audio"></audio>
+            <audio preload="auto" src="679.wav" id="player_audio_clic"></audio>
+              </center>
+          <script src="javascript_first_1.js"></script>
+  </body>
+
+</html>
